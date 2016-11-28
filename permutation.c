@@ -10,7 +10,7 @@ void process(char *substring)
   printf("%s\n", substring);
 }
 
-swap(char *substring, int size, void (*proc)(char*))
+void swap(char *substring, int size, void (*proc)(char*))
 {
   int index = --size;
   char temp;
